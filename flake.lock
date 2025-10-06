@@ -2,9 +2,7 @@
   "nodes": {
     "flake-utils": {
       "inputs": {
-        "systems": [
-          "systems"
-        ]
+        "systems": "systems"
       },
       "locked": {
         "lastModified": 1731533236,
@@ -22,16 +20,16 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1758690382,
-        "narHash": "sha256-NY3kSorgqE5LMm1LqNwGne3ZLMF2/ILgLpFr1fS4X3o=",
-        "owner": "nixos",
+        "lastModified": 1759611860,
+        "narHash": "sha256-xGGddyzl398ipafMcpMtoDyVC02PjDSRNxEjTedhD20=",
+        "owner": "szympajka",
         "repo": "nixpkgs",
-        "rev": "e643668fd71b949c53f8626614b21ff71a07379d",
+        "rev": "148b4a29474bf60637468980fff56d3ab03133a6",
         "type": "github"
       },
       "original": {
-        "owner": "nixos",
-        "ref": "nixos-unstable",
+        "owner": "szympajka",
+        "ref": "init-smithy",
         "repo": "nixpkgs",
         "type": "github"
       }
@@ -39,8 +37,7 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs",
-        "systems": "systems"
+        "nixpkgs": "nixpkgs"
       }
     },
     "systems": {
